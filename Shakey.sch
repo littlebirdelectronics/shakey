@@ -269,14 +269,15 @@
 <smd name="2" x="1.1" y="-0.8" dx="1.2" dy="1.4" layer="1" rot="R270"/>
 <smd name="3" x="1.1" y="0.8" dx="1.2" dy="1.4" layer="1" rot="R90"/>
 <smd name="4" x="-1.1" y="0.8" dx="1.2" dy="1.4" layer="1" rot="R270"/>
-<wire x1="-2" y1="-1.35" x2="-1.75" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-1.6" x2="2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-1.9" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.6" x2="2" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="2" y1="-1.6" x2="2" y2="1.6" width="0.127" layer="21"/>
 <wire x1="2" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-2" y1="1.6" x2="-2" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.6" x2="-2" y2="-1.5" width="0.127" layer="21"/>
 <text x="-2" y="-3.43" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-0.381" y1="-1.524" x2="0.381" y2="1.524" layer="41"/>
+<wire x1="-2.1" y1="-1.6" x2="-2" y2="-1.7" width="0.127" layer="21"/>
 </package>
 <package name="CONN_USB_MINI_B_MOLEX">
 <description>&lt;b&gt;Molex Mini USB B Receptacle 675031030 &lt;/b&gt;
@@ -574,9 +575,9 @@ Part No : 11071</description>
 <wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="-0.1854" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.6576" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.7076" y2="0.6604" width="0.1524" layer="21"/>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1854" width="0.1524" layer="21"/>
-<wire x1="0.6326" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="0.7326" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
 <smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
