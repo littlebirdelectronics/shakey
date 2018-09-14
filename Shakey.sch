@@ -396,6 +396,8 @@ Part No : 11071</description>
 <wire x1="-3.5" y1="-0.7" x2="3.5" y2="-0.7" width="0.01" layer="49"/>
 <text x="-0.8" y="0" size="0.254" layer="49">PCB EDGE</text>
 <text x="-1.2" y="-0.7" size="0.254" layer="49">MAX PCB EDGE</text>
+<smd name="SHLD@7" x="-3.2" y="1.45" dx="2.15" dy="0.9" layer="16" roundness="100" rot="R90" cream="no"/>
+<smd name="SHLD@8" x="3.2" y="1.45" dx="2.15" dy="0.9" layer="16" roundness="100" rot="R90" cream="no"/>
 </package>
 <package name="PPC-1206">
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -408,8 +410,8 @@ Part No : 11071</description>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 </package>
 <package name="MA01-1-ALLIGATOR-3MM">
-<pad name="1@0" x="-2.2" y="0" drill="3"/>
-<pad name="1@1" x="2.2" y="0" drill="3"/>
+<pad name="1@0" x="-2.2" y="0" drill="3" thermals="no"/>
+<pad name="1@1" x="2.2" y="0" drill="3" thermals="no"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="LED-1206-LTST-BOTTOM">
