@@ -528,8 +528,6 @@
 <vertex x="50.11" y="-15.31" curve="-90"/>
 <vertex x="42.11" y="-23.31" curve="-91.818761"/>
 </polygon>
-<text x="39.25" y="4.75" size="1.778" layer="21" font="vector">CLICK</text>
-<text x="39.25" y="-7" size="1.778" layer="21" font="vector">SPACE</text>
 <wire x1="-69.6552" y1="2.0416" x2="-69.3715" y2="4.3175" width="0.2032" layer="21"/>
 <wire x1="-69.3715" y1="4.3175" x2="-68.9009" y2="6.5622" width="0.2032" layer="21"/>
 <wire x1="-68.9009" y1="6.5622" x2="-68.2464" y2="8.7604" width="0.2032" layer="21"/>
