@@ -7604,25 +7604,99 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U1" library="SixthLogic" deviceset="ATMEGA32U4" device="-AU"/>
-<part name="Y1" library="SixthLogic" deviceset="CRYSTAL_GROUNDED_2GND" device="-FA-238" value="16Mhz"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="22p"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="22p"/>
+<part name="U1" library="SixthLogic" deviceset="ATMEGA32U4" device="-AU">
+<attribute name="UNITPRICE" value="$3.04"/>
+</part>
+<part name="Y1" library="SixthLogic" deviceset="CRYSTAL_GROUNDED_2GND" device="-FA-238" value="16Mhz">
+<attribute name="DESCRIPTION" value="CRYSTAL 16.0000MHZ 18PF SMD"/>
+<attribute name="MF" value="EPSON"/>
+<attribute name="MPN" value="FA-238 16.0000MB-C3"/>
+<attribute name="OC_DIGIKEY" value="SER3686TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.22880"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/epson/FA-238-16.0000MB-C3/SER3686TR-ND/2403378"/>
+</part>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="22p">
+<attribute name="DESCRIPTION" value="CAP CER 22PF 16V C0G/NP0 0603"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C220K4GACTU"/>
+<attribute name="OC_DIGIKEY" value="399-9031-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.01675"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-2-ND/2200194"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="22p">
+<attribute name="DESCRIPTION" value="CAP CER 22PF 16V C0G/NP0 0603"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C220K4GACTU"/>
+<attribute name="OC_DIGIKEY" value="399-9031-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.01675"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-2-ND/2200194"/>
+</part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10A105KA8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00785"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760"/>
+</part>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10B104KB8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00652"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658"/>
+</part>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="CN1" library="SixthLogic" deviceset="CONN_USB" device="-4UCON-11071"/>
-<part name="F1" library="SixthLogic" deviceset="PPTC" device="-1206" value="500mA"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="22R"/>
+<part name="F1" library="SixthLogic" deviceset="PPTC" device="-1206" value="500mA">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 8V 500MA 1206"/>
+<attribute name="MF" value="Bel Fuse Inc."/>
+<attribute name="MPN" value="0ZCJ0050FF2G"/>
+<attribute name="OC_DIGIKEY" value="507-1802-6-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.07588"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0050FF2G/507-1802-6-ND/4156237"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="22R">
+<attribute name="DESCRIPTION" value="RES 22 OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JT22R0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT22R0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00196"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT22R0/RMCF0603JT22R0TR-ND/1758012"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="22R">
+<attribute name="DESCRIPTION" value="RES 22 OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JT22R0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT22R0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00196"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT22R0/RMCF0603JT22R0TR-ND/1758012"/>
+</part>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JG10K0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00170"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
+</part>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
@@ -7630,27 +7704,147 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RIGHT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="SPACE" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
 <part name="EARTH1" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="EARTH2" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="EARTH3" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="EARTH4" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="EARTH5" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="LED_DOWN" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="LED_LEFT" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="LED_CLICK" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="LED_SPACE" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="LED_UP" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="LED_RIGHT" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="330R"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="330R"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="330R"/>
+<part name="LED_DOWN" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="LED_LEFT" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="LED_CLICK" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="LED_SPACE" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="LED_UP" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="LED_RIGHT" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KGKT"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05693"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855"/>
+</part>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="330R">
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JT330R"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00196"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="330R">
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JT330R"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00196"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998"/>
+</part>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="330R">
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JT330R"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00196"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998"/>
+</part>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="ISP" library="SixthLogic" deviceset="DEBUGPORT-6PIN" device="-ISP-AVR" value="ISP"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
@@ -7659,10 +7853,42 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="A" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="W" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="MOUSE-LEFT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="MOUSE-RIGHT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
@@ -7670,55 +7896,273 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="MOUSE-LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="MOUSE-DOWN" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
 <part name="MOUSE-UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR-3MM" device="" value=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="22M"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
+<attribute name="MF" value="Panasonic Electronic Components"/>
+<attribute name="MPN" value="ERJ-3GEYK226V"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00335"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
+</part>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="SJ1" library="SixthLogic" deviceset="SOLDER_JUMPER_NC" device="" value="SOLDER JUMPER"/>
-<part name="TX_LED" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="YELLOW"/>
-<part name="RX_LED" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="YELLOW"/>
-<part name="ON" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="RED"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
-<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
+<part name="TX_LED" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="YELLOW">
+<attribute name="DESCRIPTION" value="LED YELLOW CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KSKT"/>
+<attribute name="OC_DIGIKEY" value="160-1458-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05595"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KSKT/160-1458-2-ND/386859"/>
+</part>
+<part name="RX_LED" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="YELLOW">
+<attribute name="DESCRIPTION" value="LED YELLOW CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KSKT"/>
+<attribute name="OC_DIGIKEY" value="160-1458-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05595"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KSKT/160-1458-2-ND/386859"/>
+</part>
+<part name="ON" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="RED">
+<attribute name="DESCRIPTION" value="LED RED CLEAR CHIP SMD"/>
+<attribute name="MF" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C230KRKT"/>
+<attribute name="OC_DIGIKEY" value="160-1457-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05668"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KRKT/160-1457-2-ND/386857"/>
+</part>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00268"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677"/>
+</part>
+<part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00268"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677"/>
+</part>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="1K">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00268"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677"/>
+</part>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
-<part name="U2" library="SixthLogic" deviceset="ICM-20689" device=""/>
-<part name="U3" library="SixthLogic" deviceset="AP2210K" device="-3.3TRG1"/>
+<part name="U2" library="SixthLogic" deviceset="ICM-20689" device="">
+<attribute name="DESCRIPTION" value="IMU ACCEL/GYRO/TEMP I2C/SPI QFN"/>
+<attribute name="MF" value="TDK InvenSense"/>
+<attribute name="MPN" value="ICM-20689"/>
+<attribute name="OC_DIGIKEY" value="1428-1059-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$2.62548"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20689/1428-1059-2-ND/5872869"/>
+</part>
+<part name="U3" library="SixthLogic" deviceset="AP2210K" device="-3.3TRG1">
+<attribute name="UNITPRICE" value="$0.10797"/>
+</part>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10A105KA8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00785"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760"/>
+</part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="U$1" library="SixthLogic" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="U$2" library="SixthLogic" deviceset="3.3V" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10B104KB8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00652"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658"/>
+</part>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="2.2uF">
+<attribute name="DESCRIPTION" value="CAP CER 2.2UF 16V X5R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10A225KO8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1040-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.01863"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A225KO8NNNC/1276-1040-2-ND/3886698"/>
+</part>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10A105KA8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00785"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760"/>
+</part>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.47uF"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="0.47uF">
+<attribute name="DESCRIPTION" value="CAP CER 0.47UF 16V X7R 0603"/>
+<attribute name="MF" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GCM188R71C474KA55D"/>
+<attribute name="OC_DIGIKEY" value="490-4775-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.03744"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C474KA55D/490-4775-2-ND/1641649"/>
+</part>
 <part name="U$3" library="SixthLogic" deviceset="3.3V" device=""/>
-<part name="PC1" library="SixthLogic" deviceset="CAP_POL" device="-CT6032" value="10uF"/>
+<part name="PC1" library="SixthLogic" deviceset="CAP_POL" device="-CT6032" value="10uF">
+<attribute name="DESCRIPTION" value="CAP TANT 10UF 20V 10% 2312"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="T491C106K020AT7280"/>
+<attribute name="OC_DIGIKEY" value="399-10158-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.15113"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/T491C106K020AT7280/399-10158-2-ND/3759637"/>
+</part>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="TR1" library="SixthLogic" deviceset="MOSFET-N" device="-BSS138" value="BSS138"/>
-<part name="TR2" library="SixthLogic" deviceset="MOSFET-N" device="-BSS138" value="BSS138"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JG10K0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00170"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
+</part>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JG10K0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00170"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
+</part>
+<part name="TR1" library="SixthLogic" deviceset="MOSFET-N" device="-BSS138" value="BSS138">
+<attribute name="DESCRIPTION" value="MOSFET N-CH 50V 220MA SOT-23"/>
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MPN" value="BSS138"/>
+<attribute name="OC_DIGIKEY" value="BSS138TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05419"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138TR-ND/244210"/>
+</part>
+<part name="TR2" library="SixthLogic" deviceset="MOSFET-N" device="-BSS138" value="BSS138">
+<attribute name="DESCRIPTION" value="MOSFET N-CH 50V 220MA SOT-23"/>
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MPN" value="BSS138"/>
+<attribute name="OC_DIGIKEY" value="BSS138TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.05419"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138TR-ND/244210"/>
+</part>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JG10K0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00170"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
+</part>
+<part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603"/>
+<attribute name="MF" value="Stackpole Electronics Inc."/>
+<attribute name="MPN" value="RMCF0603JG10K0"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00170"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
+</part>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="U$4" library="SixthLogic" deviceset="3.3V" device=""/>
 <part name="U$5" library="SixthLogic" deviceset="3.3V" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="U4" library="SixthLogic" deviceset="LM75" device="AD"/>
+<part name="U4" library="SixthLogic" deviceset="LM75" device="AD">
+<attribute name="DESCRIPTION" value="SENSOR DIGITAL -55C-125C 8SO"/>
+<attribute name="MF" value="NXP USA Inc."/>
+<attribute name="MPN" value="LM75AD,118"/>
+<attribute name="OC_DIGIKEY" value="568-10295-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.28743"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/LM75AD118/568-10295-2-ND/1692795"/>
+</part>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="MF" value="Samsung Electro-Mechanics"/>
+<attribute name="MPN" value="CL10B104KB8NNNC"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND"/>
+<attribute name="SUPPLIER" value="Digikey"/>
+<attribute name="UNITPRICE" value="$0.00652"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658"/>
+</part>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="U$6" library="SixthLogic" deviceset="3.3V" device=""/>
 </parts>
@@ -7733,18 +8177,41 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="96.52" y1="167.64" x2="96.52" y2="274.32" width="0.1524" layer="94" style="longdash"/>
 </plain>
 <instances>
-<instance part="U1" gate="U1" x="147.32" y="93.98"/>
+<instance part="U1" gate="U1" x="147.32" y="93.98">
+<attribute name="UNITPRICE" x="147.32" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y1" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.838" y="84.582" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="84.582" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="106.68" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="93.98" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="90.932" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="89.535" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="93.98" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="93.98" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="90.678" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="73.66" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="93.98" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="114.3" y="81.28"/>
 <instance part="SUPPLY2" gate="GND" x="99.06" y="81.28"/>
@@ -7753,6 +8220,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C3" gate="G$1" x="106.68" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="102.87" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.108" y="106.68" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="106.68" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="106.68" y="101.6" smashed="yes">
 <attribute name="VALUE" x="107.188" y="102.235" size="1.778" layer="96"/>
@@ -7760,26 +8234,61 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C4" gate="G$1" x="96.52" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.71" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="89.789" y="106.68" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="96.52" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="VCC" x="119.38" y="154.94"/>
 <instance part="CN1" gate="G$1" x="60.96" y="91.44"/>
 <instance part="F1" gate="G$1" x="76.2" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.152" y="105.537" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="73.152" y="113.411" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<attribute name="DESCRIPTION" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="76.2" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="86.36" y="99.06" smashed="yes">
 <attribute name="NAME" x="82.55" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.503" y="100.584" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="86.36" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="86.36" y="93.98" smashed="yes">
 <attribute name="NAME" x="82.55" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.503" y="95.504" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="86.36" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="VCC" x="76.2" y="127"/>
 <instance part="SUPPLY6" gate="GND" x="63.5" y="63.5"/>
 <instance part="R3" gate="G$1" x="96.52" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.44" y="142.2146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.917" y="142.24" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="96.52" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="VCC" x="96.52" y="154.94"/>
 <instance part="UP" gate="G$1" x="365.76" y="129.54" smashed="yes">
@@ -7809,26 +8318,68 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R4" gate="G$1" x="375.92" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.4214" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.396" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="375.92" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="381" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="379.5014" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="379.476" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="381" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="381" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="386.08" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="384.5814" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="384.556" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="386.08" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="391.16" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="389.6614" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="389.636" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="391.16" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="396.24" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="394.7414" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="394.716" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="396.24" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="401.32" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="399.8214" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="399.796" y="138.303" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="401.32" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="EARTH1" gate="G$1" x="386.08" y="81.28" smashed="yes" rot="R180">
 <attribute name="VALUE" x="388.62" y="86.36" size="1.778" layer="96" rot="R180"/>
@@ -7854,38 +8405,101 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="LED_DOWN" gate="G$1" x="261.62" y="127" smashed="yes">
 <attribute name="NAME" x="265.176" y="119.888" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.335" y="122.428" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="261.62" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="261.62" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED_LEFT" gate="G$1" x="279.4" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="275.336" y="121.666" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="277.495" y="122.428" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="279.4" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED_CLICK" gate="G$1" x="297.18" y="119.38" smashed="yes">
 <attribute name="NAME" x="300.736" y="114.808" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="302.895" y="114.808" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="297.18" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED_SPACE" gate="G$1" x="289.56" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="285.496" y="112.268" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="287.655" y="114.808" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="289.56" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED_UP" gate="G$1" x="261.62" y="114.3" smashed="yes">
 <attribute name="NAME" x="265.176" y="109.728" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.335" y="109.728" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED_RIGHT" gate="G$1" x="279.4" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="275.336" y="107.95" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="277.495" y="109.728" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="279.4" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="251.46" y="132.08" smashed="yes">
 <attribute name="NAME" x="245.11" y="133.5786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="252.603" y="133.604" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="251.46" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="251.46" y="119.38" smashed="yes">
 <attribute name="NAME" x="245.11" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="252.603" y="120.904" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="251.46" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="251.46" y="106.68" smashed="yes">
 <attribute name="NAME" x="245.11" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="252.603" y="108.204" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="251.46" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="VCC" x="386.08" y="149.86"/>
 <instance part="ISP" gate="G$1" x="149.86" y="27.94"/>
@@ -7912,18 +8526,46 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R13" gate="G$1" x="375.92" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.4214" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.396" y="192.532" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="375.92" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="381" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="379.5014" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="379.476" y="192.532" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="381" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="381" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="396.24" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="394.7414" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="394.716" y="192.532" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="396.24" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="401.32" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="399.8214" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="399.796" y="192.532" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="401.32" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+6" gate="VCC" x="386.08" y="203.2"/>
 <instance part="MOUSE-LEFT-CLICK" gate="G$1" x="365.76" y="218.44" smashed="yes">
@@ -7953,51 +8595,148 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R19" gate="G$1" x="375.92" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="374.4214" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.396" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="375.92" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="381" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="379.5014" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="379.476" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="381" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="381" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="386.08" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="384.5814" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="384.556" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="386.08" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="391.16" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="389.6614" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="389.636" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="391.16" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="396.24" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="394.7414" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="394.716" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="396.24" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="401.32" y="251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="399.8214" y="247.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="399.796" y="253.492" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="401.32" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="VCC" x="386.08" y="264.16"/>
 <instance part="SJ1" gate="G$1" x="109.22" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.903" y="63.5" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="106.68" y="52.197" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TX_LED" gate="G$1" x="256.54" y="66.04"/>
-<instance part="RX_LED" gate="G$1" x="266.7" y="66.04"/>
-<instance part="ON" gate="G$1" x="276.86" y="66.04"/>
+<instance part="TX_LED" gate="G$1" x="256.54" y="66.04">
+<attribute name="DESCRIPTION" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="256.54" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RX_LED" gate="G$1" x="266.7" y="66.04">
+<attribute name="DESCRIPTION" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="266.7" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="ON" gate="G$1" x="276.86" y="66.04">
+<attribute name="DESCRIPTION" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="276.86" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R25" gate="G$1" x="256.54" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="255.0414" y="73.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="259.842" y="73.66" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="256.54" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="266.7" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="265.2014" y="73.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="270.002" y="73.66" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="266.7" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="276.86" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="275.3614" y="73.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="280.162" y="73.66" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="276.86" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="276.86" y="50.8"/>
 <instance part="P+8" gate="VCC" x="266.7" y="88.9"/>
-<instance part="U2" gate="U$1" x="149.86" y="228.6"/>
-<instance part="U3" gate="G$1" x="50.8" y="226.06"/>
+<instance part="U2" gate="U$1" x="149.86" y="228.6">
+<attribute name="DESCRIPTION" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U3" gate="G$1" x="50.8" y="226.06">
+<attribute name="UNITPRICE" x="50.8" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+9" gate="VCC" x="38.1" y="238.76"/>
 <instance part="SUPPLY10" gate="GND" x="38.1" y="213.36" smashed="yes">
 <attribute name="VALUE" x="38.608" y="213.995" size="1.778" layer="96"/>
@@ -8005,6 +8744,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C5" gate="G$1" x="71.12" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.31" y="226.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.548" y="220.98" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="71.12" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="71.12" y="213.36" smashed="yes">
 <attribute name="VALUE" x="71.628" y="213.995" size="1.778" layer="96"/>
@@ -8020,14 +8766,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C6" gate="G$1" x="119.38" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.57" y="228.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="219.329" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="119.38" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="111.76" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="107.95" y="228.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.3" y="219.329" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="111.76" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="33.02" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="226.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.448" y="220.98" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="33.02" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="33.02" y="213.36" smashed="yes">
 <attribute name="VALUE" x="33.528" y="213.995" size="1.778" layer="96"/>
@@ -8035,9 +8802,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C9" gate="G$1" x="127" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="123.19" y="228.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="224.409" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="127" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$3" gate="G$1" x="172.72" y="248.92"/>
-<instance part="PC1" gate="G$1" x="109.22" y="144.78"/>
+<instance part="PC1" gate="G$1" x="109.22" y="144.78">
+<attribute name="DESCRIPTION" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY15" gate="GND" x="109.22" y="134.62" smashed="yes">
 <attribute name="VALUE" x="109.728" y="135.255" size="1.778" layer="96"/>
 </instance>
@@ -8046,23 +8828,66 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R28" gate="G$1" x="185.42" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.324" y="238.7346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="179.197" y="236.22" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="185.42" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="185.42" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.817" y="213.3346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.817" y="210.82" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="185.42" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TR1" gate="G$1" x="195.58" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="195.58" y="235.077" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="198.12" y="235.204" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TR2" gate="G$1" x="195.58" y="205.74" rot="R270"/>
+<instance part="TR2" gate="G$1" x="195.58" y="205.74" rot="R270">
+<attribute name="DESCRIPTION" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R30" gate="G$1" x="205.74" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.644" y="238.7346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.517" y="236.22" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="205.74" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="205.74" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="207.137" y="213.3346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.137" y="210.82" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="205.74" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+11" gate="VCC" x="205.74" y="251.46" smashed="yes">
 <attribute name="VALUE" x="208.28" y="254" size="1.778" layer="96" rot="R180"/>
@@ -8072,7 +8897,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+10" gate="VCC" x="205.74" y="226.06" smashed="yes">
 <attribute name="VALUE" x="208.28" y="228.6" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U4" gate="G$1" x="287.02" y="220.98"/>
+<instance part="U4" gate="G$1" x="287.02" y="220.98">
+<attribute name="DESCRIPTION" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY16" gate="GND" x="287.02" y="198.12" smashed="yes">
 <attribute name="VALUE" x="287.528" y="198.755" size="1.778" layer="96"/>
 </instance>
@@ -8082,6 +8915,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C10" gate="G$1" x="274.32" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="267.97" y="248.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="267.589" y="243.84" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="UNITPRICE" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="URL" x="274.32" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY18" gate="GND" x="274.32" y="238.76" smashed="yes">
 <attribute name="VALUE" x="274.828" y="239.395" size="1.778" layer="96"/>

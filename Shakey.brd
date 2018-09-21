@@ -9408,26 +9408,62 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="MF" value="Microchip Technology" x="8.89" y="-9.82" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4-AU/ATMEGA32U4-AU-ND/1914602" x="8.89" y="-9.82" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_DIGIKEY" value="ATMEGA32U4-AU-ND" x="8.89" y="-9.82" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$3.04" x="0" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="Y1" library="SixthLogic" package="FA-238" value="16Mhz" x="11" y="14" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="13" y="10.57" size="1.27" layer="28" rot="MR0"/>
 <attribute name="NAME" x="13.5" y="13" size="1.016" layer="26" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CRYSTAL 16.0000MHZ 18PF SMD" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="EPSON" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="FA-238 16.0000MB-C3" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="SER3686TR-ND" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.22880" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/epson/FA-238-16.0000MB-C3/SER3686TR-ND/2403378" x="11" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C1" library="rcl" package="C0603" value="22p" x="11" y="11" smashed="yes" rot="MR180">
 <attribute name="NAME" x="12.885" y="10.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="10.365" y="12.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="CAP CER 22PF 16V C0G/NP0 0603" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="KEMET" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="C0603C220K4GACTU" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="399-9031-2-ND" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.01675" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-2-ND/2200194" x="11" y="11" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C2" library="rcl" package="C0603" value="22p" x="11" y="17" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.885" y="16.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="11.635" y="15.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="CAP CER 22PF 16V C0G/NP0 0603" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="KEMET" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="C0603C220K4GACTU" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="399-9031-2-ND" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.01675" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-2-ND/2200194" x="11" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C3" library="rcl" package="C0603" value="1uF" x="4.5" y="19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="6.385" y="18.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="5.135" y="17.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10A105KA8NNNC" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00785" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760" x="4.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C4" library="rcl" package="C0603" value="0.1uF" x="-11.5" y="13.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-13.495" y="12.995" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-12.135" y="15.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNC" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.00652" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="CN1" library="SixthLogic" package="CONN_USB_MICRO_B_4UCON-11071" value="CONN_USB-4UCON-11071" x="0" y="25.4" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="B TYPE FEMALE 05P SMT 90° WITHOUT POST 2 SHELL TABS" x="34.29" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9441,18 +9477,46 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="F1" library="SixthLogic" package="PPC-1206" value="500mA" x="-7.5" y="19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-6.48" y="16.02" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-6.23" y="16.46" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 8V 500MA 1206" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Bel Fuse Inc." x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="0ZCJ0050FF2G" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="507-1802-6-ND" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.07588" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0050FF2G/507-1802-6-ND/4156237" x="-7.5" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="22R" x="-3.25" y="19" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-2.405" y="19.925" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-3.885" y="20.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="RES 22 OHM 5% 1/10W 0603" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RMCF0603JT22R0" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT22R0TR-ND" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.00196" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT22R0/RMCF0603JT22R0TR-ND/1758012" x="-3.25" y="19" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R2" library="rcl" package="R0603" value="22R" x="0" y="19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="1.885" y="18.115" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="0.635" y="17.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES 22 OHM 5% 1/10W 0603" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RMCF0603JT22R0" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT22R0TR-ND" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00196" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT22R0/RMCF0603JT22R0TR-ND/1758012" x="0" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R3" library="rcl" package="R0603" value="10K" x="17" y="22" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.365" y="25.885" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="18.905" y="22.635" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RMCF0603JG10K0" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00170" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="UP" library="SixthLogic" package="MA01-1-ALLIGATOR-3MM" value="" x="-42.2" y="16.2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-41.14" y="21.09" size="1.27" layer="26" rot="MR0"/>
@@ -9475,26 +9539,68 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R4" library="rcl" package="R0603" value="22M" x="-37.5" y="16.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-35.385" y="17.185" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-35.595" y="16.935" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-37.5" y="16.3" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R5" library="rcl" package="R0603" value="22M" x="-58.4" y="-4.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-60.715" y="-5.385" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-56.495" y="-3.865" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-58.4" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R6" library="rcl" package="R0603" value="22M" x="-37.5" y="-16.2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-36.365" y="-16.935" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-35.595" y="-15.565" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-37.5" y="-16.2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R7" library="rcl" package="R0603" value="22M" x="-25.9" y="-4.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-24.715" y="-5.385" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-23.995" y="-3.865" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-25.9" y="-4.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R8" library="rcl" package="R0603" value="22M" x="46" y="-15.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.385" y="-16.385" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="44.095" y="-15.885" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="46" y="-15.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R9" library="rcl" package="R0603" value="22M" x="46" y="15.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.135" y="14.365" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="44.095" y="14.615" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="EARTH1" library="SixthLogic" package="MA01-1-ALLIGATOR-3MM" value="" x="-6.6" y="-12.45" smashed="yes" rot="MR270"/>
 <element name="EARTH2" library="SixthLogic" package="MA01-1-ALLIGATOR-3MM" value="" x="13.2" y="-13.69" smashed="yes" rot="MR270"/>
@@ -9504,32 +9610,97 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LED_DOWN" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="-42.2" y="-25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-37.7" y="-27.75" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-39.7" y="-27.5" size="1.016" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="-42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED_LEFT" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="-67.25" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-64.5" y="3.75" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-64.75" y="2.5" size="1.016" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="-67.25" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="LED_CLICK" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="42.2" y="25" rot="MR270"/>
-<element name="LED_SPACE" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="42.2" y="-25" rot="MR270"/>
+<element name="LED_CLICK" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="42.2" y="25" rot="MR270">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="LED_SPACE" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="42.2" y="-25" rot="MR270">
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="42.2" y="-25" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="LED_UP" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="-42.2" y="25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-39.41" y="26.52" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-39.66" y="22.46" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="-42.2" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED_RIGHT" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="-17.2" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-18.7" y="4.5" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-14.7" y="2.5" size="1.016" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="LTST-C230KGKT" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1456-2-ND" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.05693" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-2-ND/386855" x="-17.2" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R10" library="rcl" package="R0603" value="330R" x="-37.2" y="-25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-35.815" y="-23.865" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-36.565" y="-26.905" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RMCF0603JT330R" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00196" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998" x="-37.2" y="-25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R11" library="rcl" package="R0603" value="330R" x="-17.2" y="5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-15.915" y="3.865" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-15.295" y="5.635" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RMCF0603JT330R" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00196" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998" x="-17.2" y="5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R12" library="rcl" package="R0603" value="330R" x="-37.2" y="25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-35.75" y="26.25" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-36.565" y="23.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES 330 OHM 5% 1/10W 0603" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RMCF0603JT330R" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JT330RTR-ND" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00196" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JT330R/RMCF0603JT330RTR-ND/1757998" x="-37.2" y="25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="ISP" library="SixthLogic" package="MA03-2" value="ISP" x="11.53" y="21.99" smashed="yes" rot="MR180">
 <attribute name="NAME" x="6.181" y="20.47" size="1.27" layer="26" ratio="10" rot="MR90"/>
@@ -9550,18 +9721,46 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R13" library="rcl" package="R0603" value="22M" x="-58.4" y="-10.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-60.515" y="-11.885" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-60.305" y="-11.135" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-58.4" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R14" library="rcl" package="R0603" value="22M" x="-58.4" y="10.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-60.715" y="9.365" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-56.495" y="11.135" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-58.4" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R17" library="rcl" package="R0603" value="22M" x="-25.9" y="-10.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-24.765" y="-11.885" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-27.805" y="-11.135" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-25.9" y="-10.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R18" library="rcl" package="R0603" value="22M" x="-25.9" y="10.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-24.715" y="9.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-23.995" y="11.135" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="MOUSE-LEFT-CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3MM" value="" x="25.9" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.25" y="-4.89" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
@@ -9582,52 +9781,144 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R19" library="rcl" package="R0603" value="22M" x="27" y="-10" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.135" y="-8.865" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="27.635" y="-11.905" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="27" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R20" library="rcl" package="R0603" value="22M" x="57.4" y="-10" smashed="yes" rot="MR0">
 <attribute name="NAME" x="58.785" y="-8.615" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="58.035" y="-11.905" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="57.4" y="-10" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R21" library="rcl" package="R0603" value="22M" x="27" y="10" smashed="yes" rot="MR180">
 <attribute name="NAME" x="25.615" y="8.615" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="26.365" y="11.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="27" y="10" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R22" library="rcl" package="R0603" value="22M" x="57.35" y="10" smashed="yes" rot="MR0">
 <attribute name="NAME" x="58.735" y="7.635" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="57.985" y="8.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="57.35" y="10" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R23" library="rcl" package="R0603" value="22M" x="62" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="63.135" y="-1.135" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="63.905" y="0.635" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="62" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R24" library="rcl" package="R0603" value="22M" x="22" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.635" y="-1.385" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="23.905" y="0.635" size="1.27" layer="28" rot="MR270"/>
+<attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Panasonic Electronic Components" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-3GEYK226V" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="P22MGTR-ND" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.00335" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="22" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="SJ1" library="SixthLogic" package="SOLDER_JUMPER_NC" value="SOLDER JUMPER" x="-6.5" y="4.5" rot="MR180"/>
-<element name="TX_LED" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="YELLOW" x="22" y="24" rot="MR270"/>
+<element name="TX_LED" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="YELLOW" x="22" y="24" rot="MR270">
+<attribute name="DESCRIPTION" value="LED YELLOW CLEAR CHIP SMD" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KSKT" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1458-2-ND" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05595" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KSKT/160-1458-2-ND/386859" x="22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="RX_LED" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="YELLOW" x="-22" y="24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-19" y="25.5" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-19.5" y="21.5" size="1.016" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="LED YELLOW CLEAR CHIP SMD" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KSKT" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1458-2-ND" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05595" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KSKT/160-1458-2-ND/386859" x="-22" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="ON" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="RED" x="-7.5" y="24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-4.75" y="21.75" size="0.8128" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-7.5" y="21.5" size="1.016" layer="28" rot="MR0" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="LED RED CLEAR CHIP SMD" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Lite-On Inc." x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LTST-C230KRKT" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="160-1457-2-ND" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.05668" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KRKT/160-1457-2-ND/386857" x="-7.5" y="24" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R25" library="rcl" package="R0603" value="1K" x="26.25" y="24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="27.385" y="22.865" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="24.345" y="23.365" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Yageo" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603JR-071KL" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00268" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677" x="26.25" y="24" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R26" library="rcl" package="R0603" value="1K" x="-17.75" y="23.75" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-16.615" y="22.365" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-19.655" y="23.115" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Yageo" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603JR-071KL" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00268" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677" x="-17.75" y="23.75" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R27" library="rcl" package="R0603" value="1K" x="-7.5" y="21.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-9.635" y="22.635" size="0.8128" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-6.865" y="19.595" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/10W 0603" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Yageo" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603JR-071KL" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-1.0KGRTR-ND" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00268" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRTR-ND/726677" x="-7.5" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U2" library="SixthLogic" package="QFN-24-4X4-0.9MM" value="ICM-20689" x="0" y="-0.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="0" y="2.35" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="0" y="-4.5" size="1.016" layer="28" rot="MR0" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="IMU ACCEL/GYRO/TEMP I2C/SPI QFN" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="TDK InvenSense" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="ICM-20689" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="1428-1059-2-ND" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$2.62548" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20689/1428-1059-2-ND/5872869" x="0" y="-0.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U3" library="SixthLogic" package="SOT23-5" value="AP2210K-3.3TRG1" x="-11.5" y="7.5" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="IC REG LDO 3.3V 0.3A SOT23-5" x="22.79" y="36.71" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -9637,62 +9928,161 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_DIGIKEY" value="AP2210K-3.3TRG1DITR-ND" x="22.79" y="36.71" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-14.249" y="8.011" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-11.4925" y="10.7405" size="1.016" layer="28" rot="MR180" align="bottom-center"/>
+<attribute name="UNITPRICE" value="$0.10797" x="-11.5" y="7.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C5" library="rcl" package="C0603" value="1uF" x="-11.5" y="4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-10.615" y="1.635" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-10.865" y="2.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10A105KA8NNNC" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00785" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760" x="-11.5" y="4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C6" library="rcl" package="C0603" value="0.1uF" x="2.25" y="-5.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="5.385" y="-6.615" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="0.345" y="-5.885" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNC" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00652" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658" x="2.25" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C7" library="rcl" package="C0603" value="2.2uF" x="-2.5" y="-5.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-7.365" y="-6.135" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-4.405" y="-5.885" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CAP CER 2.2UF 16V X5R 0603" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10A225KO8NNNC" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1040-2-ND" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.01863" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A225KO8NNNC/1276-1040-2-ND/3886698" x="-2.5" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C8" library="rcl" package="C0603" value="1uF" x="-11.5" y="11" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-13.495" y="10.495" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-10.865" y="9.095" size="1.27" layer="28" rot="MR0"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10A105KA8NNNC" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1102-2-ND" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105KA8NNNC/1276-1102-2-ND/3886760" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.00785" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-11.5" y="11" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C9" library="rcl" package="C0603" value="0.47uF" x="0" y="-5.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-5.865" y="-6.135" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="-1.905" y="-5.885" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.47UF 16V X7R 0603" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Murata Electronics North America" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GCM188R71C474KA55D" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="490-4775-2-ND" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.03744" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C474KA55D/490-4775-2-ND/1641649" x="0" y="-5.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="PC1" library="SixthLogic" package="CT6032" value="10uF" x="-13" y="21.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-15.405" y="20.54" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-16.175" y="18.96" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CAP TANT 10UF 20V 10% 2312" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="KEMET" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="T491C106K020AT7280" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="399-10158-2-ND" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.15113" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/kemet/T491C106K020AT7280/399-10158-2-ND/3759637" x="-13" y="21.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R28" library="rcl" package="R0603" value="10K" x="9.25" y="0.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="4.615" y="1.115" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.615" y="2.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RMCF0603JG10K0" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.00170" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="9.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R29" library="rcl" package="R0603" value="10K" x="13.25" y="0.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="15.115" y="1.115" size="1.016" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="12.615" y="2.405" size="1.27" layer="28" rot="MR180"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RMCF0603JG10K0" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="UNITPRICE" value="$0.00170" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="13.25" y="0.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="TR1" library="SixthLogic" package="SOT23" value="BSS138" x="9.25" y="3.75" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.095" y="3.75" size="1.016" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="9.25" y="0.75" size="1.016" layer="28" rot="MR0" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="MOSFET N-CH 50V 220MA SOT-23" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="BSS138" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="BSS138TR-ND" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.05419" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138TR-ND/244210" x="9.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TR2" library="SixthLogic" package="SOT23" value="BSS138" x="13.25" y="3.75" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.345" y="3.75" size="1.016" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="13.25" y="0.75" size="1.016" layer="28" rot="MR0" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="MOSFET N-CH 50V 220MA SOT-23" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="BSS138" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="BSS138TR-ND" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="UNITPRICE" value="$0.05419" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138TR-ND/244210" x="13.25" y="3.75" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R30" library="rcl" package="R0603" value="10K" x="10" y="7.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.635" y="6.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="8.095" y="6.865" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RMCF0603JG10K0" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00170" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="10" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R31" library="rcl" package="R0603" value="10K" x="12.5" y="7.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="13.885" y="6.115" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="10.595" y="6.865" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 5% 1/10W 0603" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Stackpole Electronics Inc." x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RMCF0603JG10K0" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="RMCF0603JG10K0TR-ND" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00170" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="12.5" y="7.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U4" library="SixthLogic" package="SOT96-1" value="LM75AD" x="13" y="-2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="15" y="-4.75" size="1.016" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="10.5" y="-8" size="1.016" layer="28" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="SENSOR DIGITAL -55C-125C 8SO" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="NXP USA Inc." x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="LM75AD,118" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_DIGIKEY" value="568-10295-2-ND" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="UNITPRICE" value="$0.28743" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/LM75AD118/568-10295-2-ND/1692795" x="13" y="-2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C10" library="rcl" package="C0603" value="0.1uF" x="5" y="-3.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.385" y="-1.615" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="3.095" y="-4.135" size="1.27" layer="28" rot="MR90"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Samsung Electro-Mechanics" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNC" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-1000-2-ND" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SUPPLIER" value="Digikey" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="UNITPRICE" value="$0.00652" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658" x="5" y="-3.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 </elements>
 <signals>
