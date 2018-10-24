@@ -1,0 +1,123 @@
+/*************************************************** 
+This is a library for the LittleBird ICM-20689 MEMS Motion Tracking Device
+
+Designed specifically to work with the LittleBird Shakey
+----> https://www.littlebirdelectronics.com.au/shakey
+
+
+LittleBird invests time and resources providing this open source code, 
+please support LittleBird and open-source hardware by purchasing 
+products from LittleBird Electronics!
+
+Written by JP Liew for Little Bird Electronics
+BSD license, all text above must be included in any redistribution
+****************************************************/
+
+#ifndef LITTLEBIRD_ICM20689_H
+#define LITTLEBIRD_ICM20689_H
+
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
+
+#define ICM20689_DEFAULT_ADDRESS		0x68		// Default ICM20689 Address, with AD0 = 0
+
+// GYROSCOPE SELF-TEST REGISTERS
+#define ICM20689_SELF_TEST_X_GYRO		0
+#define ICM20689_SELF_TEST_Y_GYRO		1
+#define ICM20689_SELF_TEST_Z_GYRO		2
+
+// ACCELEROMETER SELF-TEST REGISTERS
+#define ICM20689_SELF_TEST_X_ACCEL		13
+#define ICM20689_SELF_TEST_Y_ACCEL		14
+#define ICM20689_SELF_TEST_Z_ACCEL		15
+
+// GYRO OFFSET ADJUSTMENT REGISTER
+#define ICM20689_XG_OFFS_USRH			19
+#define ICM20689_XG_OFFS_USRL			20
+#define ICM20689_YG_OFFS_USRH			21
+#define ICM20689_YG_OFFS_USRL			22
+#define ICM20689_ZG_OFFS_USRH			23
+#define ICM20689_ZG_OFFS_USRL			24
+
+#define ICM20689_SMPLRT_DIV				25	// SAMPLE RATE DIVIDER
+#define ICM20689_CONFIG					26	// CONFIGURATION
+#define ICM20689_GYRO_CONFIG			27	// GYROSCOPE CONFIGURATION
+#define ICM20689_ACCEL_CONFIG			28	// ACCELEROMETER CONFIGURATION
+#define ICM20689_ACCEL_CONFIG2			29	// ACCELEROMETER CONFIGURATION 2
+#define ICM20689_LP_MODE_CFG			30	// LOW POWER MODE CONFIGURATION
+
+// WAKE-ON MOTION THRESHOLD (ACCELEROMETER)
+#define ICM20689_ACCEL_WOM_X_THR		32	// X-AXIS WAKE-ON MOTION THRESHOLD (ACCELEROMETER)
+#define ICM20689_ACCEL_WOM_Y_THR		33	// Y-AXIS WAKE-ON MOTION THRESHOLD (ACCELEROMETER)
+#define ICM20689_ACCEL_WOM_Z_THR		34	// Z-AXIS WAKE-ON MOTION THRESHOLD (ACCELEROMETER)
+
+#define ICM20689_FIFO_EN				35	// FIFO ENABLE
+#define ICM20689_FSYNC_INT				54	// FSYNC INTERRUPT STATUS
+#define ICM20689_INT_PIN_CFG			55	// INT/DRDY PIN / BYPASS ENABLE CONFIGURATION
+#define ICM20689_INT_ENABLE				56	// INTERRUPT ENABLE
+#define ICM20689_DMP_INT_STATUS			57	// DMP INTERRUPT STATUS
+#define ICM20689_INT_STATUS				58	// INTERRUPT STATUS
+
+// ACCELEROMETER MEASUREMENTS
+#define ICM20689_ACCEL_XOUT_H			59
+#define ICM20689_ACCEL_XOUT_L			60
+#define ICM20689_ACCEL_YOUT_H			61
+#define ICM20689_ACCEL_YOUT_L			62
+#define ICM20689_ACCEL_ZOUT_H			63
+#define ICM20689_ACCEL_ZOUT_L			64
+
+// TEMPERATURE MEASUREMENT
+#define ICM20689_TEMP_OUT_H				65
+#define ICM20689_TEMP_OUT_L				66
+
+// GYROSCOPE MEASUREMENTS
+#define ICM20689_GYRO_XOUT_H			67
+#define ICM20689_GYRO_XOUT_L			68
+#define ICM20689_GYRO_YOUT_H			69
+#define ICM20689_GYRO_YOUT_L			70
+#define ICM20689_GYRO_ZOUT_H			71
+#define ICM20689_GYRO_ZOUT_L			72
+
+
+
+#define ICM20689_SIGNAL_PATH_RESET		104	// SIGNAL PATH RESET
+#define ICM20689_ACCEL_INTEL_CTRL		105	// ACCELEROMETER INTELLIGENCE CONTROL
+#define ICM20689_USER_CTRL				106	// USER CONTROL
+#define ICM20689_PWR_MGMT_1				107	// POWER MANAGEMENT 1
+#define ICM20689_PWR_MGMT_2				108	// POWER MANAGEMENT 2
+
+// FIFO COUNT REGISTERS
+#define ICM20689_FIFO_COUNTH			114
+#define ICM20689_FIFO_COUNTL			115
+
+#define ICM20689_FIFO_R_W				116	// FIFO READ WRITE
+#define ICM20689_WHO_AM_I				117	// WHO AM I
+
+// ACCELEROMETER OFFSET REGISTERS
+#define ICM20689_XA_OFFSET_H			119
+#define ICM20689_XA_OFFSET_L			120
+#define ICM20689_YA_OFFSET_H			122
+#define ICM20689_YA_OFFSET_L			123
+#define ICM20689_ZA_OFFSET_H			125
+#define ICM20689_ZA_OFFSET_L			126
+
+class LittleBird_ICM20689
+{
+	uint8_t	_i2cAddress;
+
+public:
+	LittleBird_ICM20689();
+	LittleBird_ICM20689(uint8_t address);
+	
+	void begin();
+	void end();
+	uint8_t getAddress();
+	uint8_t whoami();
+	uint16_t getGyroX();
+	uint8_t getPowerManagement1();
+	void setSleep(bool sleep);
+};
+#endif

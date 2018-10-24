@@ -1,0 +1,80 @@
+# Spark Board Contribution Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+menu.cpu=Processor
+
+################################################################################
+###################################### Shakey ##################################
+################################################################################
+Shakey.name=LittleBird Shakey
+Shakey.build.board=AVR_SHAKEY
+Shakey.build.vid.0=0x1B4F
+Shakey.build.pid.0=0x2B74
+Shakey.build.vid.1=0x1B4F
+Shakey.build.pid.1=0x2B75
+
+Shakey.upload.tool=arduino:avrdude
+Shakey.upload.protocol=avr109
+Shakey.upload.maximum_size=28672
+Shakey.upload.speed=57600
+Shakey.upload.disable_flushing=true
+Shakey.upload.use_1200bps_touch=true
+Shakey.upload.wait_for_upload_port=true
+
+Shakey.bootloader.low_fuses=0xFF
+Shakey.bootloader.high_fuses=0xD8
+Shakey.bootloader.extended_fuses=0xF8
+Shakey.bootloader.file=caterina/Caterina-makey.hex
+Shakey.bootloader.unlock_bits=0x3F
+Shakey.bootloader.lock_bits=0x2F
+Shakey.bootloader.tool=arduino:avrdude
+
+Shakey.build.mcu=atmega32u4
+Shakey.build.f_cpu=16000000L
+Shakey.build.vid=0x1B4F
+Shakey.build.pid=0x2B75
+Shakey.build.usb_product="LittleBird Shakey"
+Shakey.build.core=arduino:arduino
+Shakey.build.variant=shakey
+Shakey.build.extra_flags={build.usb_flags}
+Shakey.build.usb_manufacturer="Little Bird Electronics"
+
+################################################################################
+############################# EagLED #################################
+################################################################################
+
+EagLED.name=LittleBird EagLED
+EagLED.vid.0=0x1B4F
+EagLED.pid.0=0x0110
+
+EagLED.upload.tool=avrdude
+EagLED.upload.protocol=avr109
+EagLED.upload.maximum_size=28672
+EagLED.upload.maximum_data_size=2560
+EagLED.upload.speed=57600
+EagLED.upload.disable_flushing=true
+EagLED.upload.use_1200bps_touch=true
+EagLED.upload.wait_for_upload_port=true
+
+EagLED.bootloader.tool=avrdude
+EagLED.bootloader.low_fuses=0xff
+EagLED.bootloader.high_fuses=0xd8
+EagLED.bootloader.extended_fuses=0xce
+EagLED.bootloader.file=caterina/Caterina-lilypadusbplus.hex
+EagLED.bootloader.unlock_bits=0x3F
+EagLED.bootloader.lock_bits=0x2F
+
+EagLED.build.mcu=atmega32u4
+EagLED.build.f_cpu=8000000L
+EagLED.build.vid=0x1B4F
+EagLED.build.pid=0x0110
+EagLED.build.usb_product="LittleBird EagLED"
+EagLED.build.board=AVR_EAGLED
+EagLED.build.core=arduino:arduino
+EagLED.build.variant=eagled
+EagLED.build.extra_flags={build.usb_flags}
+EagLED.build.usb_manufacturer="Little Bird Electronics"
