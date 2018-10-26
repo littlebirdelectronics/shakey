@@ -3,15 +3,8 @@ Shakey Todo
 JP
 -------------
 
-
-
-
-Add fiducial
-Add 3V test point, 5V test point
 Check left/right/top/bottom margin for pick and place
 Shakey- check to protect the gold touch
-Schematic fit to A3
-
 Integrate WebUSB change key to Factory
 
 DONE
@@ -27,6 +20,8 @@ Adjust croc hole size, maybe to 3.1mm (DONE)
 Add Keyboard Mouse icon on top layer (DONE)
 Add Shakey Logo (DONE)
 Add X,Y Z symbol (skip)
+Add fiducial (DONE)
+Add 3V test point, 5V test point (DONE)
 
 
 LBE
