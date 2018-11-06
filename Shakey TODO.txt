@@ -2,9 +2,7 @@ Shakey Todo
 
 JP
 -------------
-
 Check left/right/top/bottom margin for pick and place
-Shakey- check to protect the gold touch
 Integrate WebUSB change key to Factory
 
 DONE
@@ -22,6 +20,7 @@ Add Shakey Logo (DONE)
 Add X,Y Z symbol (skip)
 Add fiducial (DONE)
 Add 3V test point, 5V test point (DONE)
+Shakey- check to protect the gold touch (DONE- ignore for now)
 
 
 LBE
