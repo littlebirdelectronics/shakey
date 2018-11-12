@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,17 +28,17 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="10" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="10" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -12520,9 +12520,9 @@ Part No : 11071</description>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 </package>
-<package name="MA01-1-ALLIGATOR-3.1MM">
-<pad name="1@0" x="-2.2" y="0" drill="3.1" thermals="no"/>
-<pad name="1@1" x="2.2" y="0" drill="3.1" thermals="no"/>
+<package name="MA01-1-ALLIGATOR-3.0MM">
+<pad name="1@0" x="-2.2" y="0" drill="3" thermals="no"/>
+<pad name="1@1" x="2.2" y="0" drill="3" thermals="no"/>
 <text x="0" y="2.54" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="LED-1206-LTST-BOTTOM">
@@ -14139,27 +14139,27 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="UNITPRICE" value="$0.00170" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133" x="17" y="22" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="UP" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-42.2" y="16.2" smashed="yes" rot="MR90">
+<element name="UP" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-42.2" y="16.2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-42.2" y="21.09" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-42.2" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LEFT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-58.4" y="0" smashed="yes" rot="MR0">
+<element name="LEFT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-58.4" y="0" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-58.4" y="2.54" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-58.4" y="0" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="DOWN" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-42.2" y="-16.2" smashed="yes" rot="MR90">
+<element name="DOWN" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-42.2" y="-16.2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-42.2" y="-22.41" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-42.2" y="-16.2" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="RIGHT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-25.9" y="0" smashed="yes" rot="MR180">
+<element name="RIGHT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-25.9" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-25.9" y="2.54" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-25.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="SPACE" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="42.2" y="-15.25" smashed="yes" rot="MR270">
+<element name="SPACE" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="42.2" y="-15.25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="39.66" y="-15.25" size="1.016" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="42.2" y="-15.25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="42.2" y="15.25" smashed="yes" rot="MR270">
+<element name="CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="42.2" y="15.25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="39.66" y="15.25" size="1.016" layer="26" rot="MR270" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="42.2" y="15.25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -14229,19 +14229,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="UNITPRICE" value="$0.00335" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="46" y="15.25" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="EARTH1" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-6.6" y="-12.45" smashed="yes" rot="MR270">
+<element name="EARTH1" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-6.6" y="-12.45" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-6.6" y="-12.45" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="EARTH2" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="13.2" y="-13.69" smashed="yes" rot="MR270">
+<element name="EARTH2" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="13.2" y="-13.69" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="13.2" y="-13.69" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="EARTH3" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="6.6" y="-12.45" smashed="yes" rot="MR270">
+<element name="EARTH3" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="6.6" y="-12.45" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="6.6" y="-12.45" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="EARTH4" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="0" y="-11.65" smashed="yes" rot="MR270">
+<element name="EARTH4" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="0" y="-11.65" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="0" y="-11.65" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="EARTH5" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-13.2" y="-13.69" smashed="yes" rot="MR270">
+<element name="EARTH5" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-13.2" y="-13.69" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-13.2" y="-13.69" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED_DOWN" library="SixthLogic" package="LED-1206-LTST-BOTTOM" value="GREEN" x="-42.2" y="-25" smashed="yes" rot="MR270">
@@ -14348,19 +14348,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="10.26" y="26.181" size="1.27" layer="28" ratio="10" rot="MR180"/>
 <attribute name="DESCRIPTION" value="6 Pin ISP port" x="11.53" y="21.99" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="G" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-28.2" y="14" smashed="yes" rot="MR315">
+<element name="G" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-28.2" y="14" smashed="yes" rot="MR315">
 <attribute name="NAME" x="-29.543734375" y="15.27976875" size="1.27" layer="26" rot="MR0"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-28.2" y="14" size="1.778" layer="28" rot="MR315" display="off"/>
 </element>
-<element name="F" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-28.2" y="-14" smashed="yes" rot="MR225">
+<element name="F" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-28.2" y="-14" smashed="yes" rot="MR225">
 <attribute name="NAME" x="-29.364440625" y="-16.57378125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-28.2" y="-14" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
-<element name="A" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-56.2" y="14" smashed="yes" rot="MR225">
+<element name="A" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-56.2" y="14" smashed="yes" rot="MR225">
 <attribute name="NAME" x="-53.614440625" y="15.52976875" size="1.27" layer="26" rot="MR0"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-56.2" y="14" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
-<element name="W" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="-56.2" y="-14" smashed="yes" rot="MR315">
+<element name="W" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="-56.2" y="-14" smashed="yes" rot="MR315">
 <attribute name="NAME" x="-53.04373125" y="-16.616675" size="1.27" layer="26" rot="MR0"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="-56.2" y="-14" size="1.778" layer="28" rot="MR315" display="off"/>
 </element>
@@ -14408,27 +14408,27 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="UNITPRICE" value="$0.00335" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153" x="-25.9" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="MOUSE-LEFT-CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="25.9" y="0" smashed="yes" rot="MR270">
+<element name="MOUSE-LEFT-CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="25.9" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.25" y="-4.89" size="1.016" layer="26" rot="MR180" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="25.9" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="MOUSE-RIGHT-CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="58.5" y="0" smashed="yes" rot="MR270">
+<element name="MOUSE-RIGHT-CLICK" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="58.5" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="59.25" y="-6.21" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="58.5" y="0" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="MOUSE-RIGHT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="57.4" y="14" smashed="yes" rot="MR0">
+<element name="MOUSE-RIGHT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="57.4" y="14" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="57.4" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="57.4" y="16.54" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="MOUSE-LEFT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="27" y="14" smashed="yes" rot="MR180">
+<element name="MOUSE-LEFT" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="27" y="14" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27" y="16.54" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="27" y="14" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="MOUSE-DOWN" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="57.4" y="-14.1" smashed="yes" rot="MR0">
+<element name="MOUSE-DOWN" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="57.4" y="-14.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.4" y="-18.06" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="57.4" y="-14.1" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="MOUSE-UP" library="SixthLogic" package="MA01-1-ALLIGATOR-3.1MM" value="" x="27" y="-14.1" smashed="yes" rot="MR0">
+<element name="MOUSE-UP" library="SixthLogic" package="MA01-1-ALLIGATOR-3.0MM" value="MA01-1-ALLIGATOR-3.0MM" x="27" y="-14.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="27" y="-18.06" size="1.016" layer="26" rot="MR0" align="bottom-center"/>
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " x="27" y="-14.1" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
