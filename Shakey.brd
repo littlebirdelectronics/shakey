@@ -12023,7 +12023,7 @@
 <rectangle x1="-0.381" y1="-1.524" x2="0.381" y2="1.524" layer="41"/>
 <wire x1="-2.15" y1="-1.65" x2="-2.05" y2="-1.75" width="0.127" layer="21"/>
 </package>
-<package name="CONN_USB_MICRO_B_4UCON-11071">
+<package name="4UCON-11071">
 <description>4UCON B TYPE FEMALE 05P SMT 90° WITHOUT POST 2 SHELL TABS:DIP BLACK INSULATOR GOLD FLASH
 Part No : 11071</description>
 <wire x1="-3.8" y1="0" x2="3.8" y2="0" width="0.01" layer="49"/>
@@ -14086,7 +14086,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="UNITPRICE" value="$0.00652" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-2-ND/3886658" x="-11.5" y="13.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="CN1" library="SixthLogic" package="CONN_USB_MICRO_B_4UCON-11071" value="CONN_USB-4UCON-11071" x="0" y="25.4" smashed="yes" rot="MR180">
+<element name="CN1" library="SixthLogic" package="4UCON-11071" value="MicroUSB" x="0" y="25.4" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="B TYPE FEMALE 05P SMT 90° WITHOUT POST 2 SHELL TABS" x="34.29" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="11071" x="34.29" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="4UCON" x="34.29" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
