@@ -1017,22 +1017,22 @@ Part No : 11071</description>
 </package>
 <package name="CT6032">
 <description>Tantalum Capacitor CT6032</description>
-<wire x1="-2.932" y1="-1.637" x2="-2.932" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="-3.073" y1="1.067" x2="-3.073" y2="-1.067" width="0.1524" layer="51"/>
-<wire x1="2.957" y1="1.637" x2="-2.932" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="2.957" y1="-1.637" x2="-2.932" y2="-1.637" width="0.2032" layer="51"/>
-<wire x1="3.073" y1="1.067" x2="3.073" y2="-1.067" width="0.1524" layer="51"/>
-<wire x1="2.957" y1="-1.637" x2="2.957" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="-4.355" y1="0" x2="-5.625" y2="0" width="0.2032" layer="21"/>
-<wire x1="-4.975" y1="0.63" x2="-4.975" y2="-0.64" width="0.2032" layer="21"/>
-<smd name="+" x="-2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
-<smd name="-" x="2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-4" y1="2" x2="-4" y2="-2" width="0.127" layer="39"/>
-<wire x1="-4" y1="-2" x2="4" y2="-2" width="0.127" layer="39"/>
-<wire x1="4" y1="-2" x2="4" y2="2" width="0.127" layer="39"/>
-<wire x1="4" y1="2" x2="-4" y2="2" width="0.127" layer="39"/>
+<wire x1="1.637" y1="-2.932" x2="-1.637" y2="-2.932" width="0.2032" layer="51"/>
+<wire x1="-1.067" y1="-3.073" x2="1.067" y2="-3.073" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="2.957" x2="-1.637" y2="-2.932" width="0.2032" layer="51"/>
+<wire x1="1.637" y1="2.957" x2="1.637" y2="-2.932" width="0.2032" layer="51"/>
+<wire x1="-1.067" y1="3.073" x2="1.067" y2="3.073" width="0.1524" layer="51"/>
+<wire x1="1.637" y1="2.957" x2="-1.637" y2="2.957" width="0.2032" layer="51"/>
+<wire x1="0" y1="-4.355" x2="0" y2="-5.625" width="0.2032" layer="21"/>
+<wire x1="-0.63" y1="-4.975" x2="0.64" y2="-4.975" width="0.2032" layer="21"/>
+<smd name="+" x="0" y="-2.5" dx="2.6" dy="2.2" layer="1" rot="R90"/>
+<smd name="-" x="0" y="2.5" dx="2.6" dy="2.2" layer="1" rot="R90"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2" y1="-4" x2="2" y2="-4" width="0.127" layer="39"/>
+<wire x1="2" y1="-4" x2="2" y2="4" width="0.127" layer="39"/>
+<wire x1="2" y1="4" x2="-2" y2="4" width="0.127" layer="39"/>
+<wire x1="-2" y1="4" x2="-2" y2="-4" width="0.127" layer="39"/>
 </package>
 <package name="SOT23">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -1053,21 +1053,21 @@ Part No : 11071</description>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
 <package name="SOT96-1">
-<smd name="1" x="0" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="1.27" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="2.54" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="3.81" y="0" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="3.81" y="5.3" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="2.54" y="5.3" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="1.27" y="5.3" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="0" y="5.3" dx="1.3" dy="0.6" layer="1" rot="R90"/>
-<wire x1="-0.845" y1="4.88" x2="-0.845" y2="0.42" width="0.127" layer="21"/>
-<wire x1="4.655" y1="4.88" x2="4.655" y2="0.42" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.1" x2="-0.5" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.6" x2="0.5" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.6" x2="0" y2="-1.1" width="0.127" layer="21"/>
-<text x="-1.5" y="2.5" size="1.016" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="6" y="2.5" size="1.016" layer="27" font="vector" rot="R90" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="0" y="0" dx="1.3" dy="0.6" layer="1"/>
+<smd name="2" x="0" y="-1.27" dx="1.3" dy="0.6" layer="1"/>
+<smd name="3" x="0" y="-2.54" dx="1.3" dy="0.6" layer="1"/>
+<smd name="4" x="0" y="-3.81" dx="1.3" dy="0.6" layer="1"/>
+<smd name="5" x="5.3" y="-3.81" dx="1.3" dy="0.6" layer="1"/>
+<smd name="6" x="5.3" y="-2.54" dx="1.3" dy="0.6" layer="1"/>
+<smd name="7" x="5.3" y="-1.27" dx="1.3" dy="0.6" layer="1"/>
+<smd name="8" x="5.3" y="0" dx="1.3" dy="0.6" layer="1"/>
+<wire x1="4.88" y1="0.845" x2="0.42" y2="0.845" width="0.127" layer="21"/>
+<wire x1="4.88" y1="-4.655" x2="0.42" y2="-4.655" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0" x2="-1.6" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.5" x2="-1.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.5" x2="-1.1" y2="0" width="0.127" layer="21"/>
+<text x="2.5" y="1.5" size="1.016" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="2.5" y="-6" size="1.016" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
 </package>
 <package name="FIDUCIAL-1X3MM">
 <description>Fiducial 1mm x 3mm</description>
@@ -1097,6 +1097,11 @@ Part No : 11071</description>
 <package name="MA01-1-ALLIGATOR-3.0MM">
 <pad name="1@0" x="-2.2" y="0" drill="3" thermals="no"/>
 <pad name="1@1" x="2.2" y="0" drill="3" thermals="no"/>
+<text x="0" y="2.54" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="MA01-1-ALLIGATOR-3.0MM-CLOSED">
+<pad name="1@0" x="-2" y="0" drill="3" diameter="4.5" thermals="no"/>
+<pad name="1@1" x="2" y="0" drill="3" diameter="4.5" thermals="no"/>
 <text x="0" y="2.54" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 </packages>
@@ -1430,7 +1435,6 @@ Part No : 11071</description>
 <wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
@@ -1672,6 +1676,14 @@ Part No : 11071</description>
 <technology name="">
 <attribute name="DESCRIPTION" value="2x3mm Holes for Alligator Clips " constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-3.0MM-CLOSED" package="MA01-1-ALLIGATOR-3.0MM-CLOSED">
+<connects>
+<connect gate="G$1" pin="1" pad="1@0 1@1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7774,12 +7786,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG10K0/RMCF0603JG10K0TR-ND/1712133"/>
 </part>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="DOWN" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="RIGHT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="SPACE" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
+<part name="UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="DOWN" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="RIGHT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="SPACE" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
 <attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
 <attribute name="MF" value="Panasonic Electronic Components"/>
@@ -7834,11 +7846,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="UNITPRICE" value="$0.00335"/>
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
 </part>
-<part name="EARTH1" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="EARTH2" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="EARTH3" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="EARTH4" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="EARTH5" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
+<part name="EARTH1" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="EARTH2" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="EARTH3" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="EARTH4" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="EARTH5" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="LED_DOWN" library="SixthLogic" deviceset="LED" device="-1206-LTST-BOTTOM" value="GREEN">
 <attribute name="DESCRIPTION" value="LED GREEN CLEAR CHIP SMD"/>
@@ -7925,10 +7937,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="ISP" library="SixthLogic" deviceset="DEBUGPORT-6PIN" device="-ISP-AVR" value="ISP"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="G" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="F" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="A" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="W" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
+<part name="G" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="F" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="A" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="W" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
 <attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
 <attribute name="MF" value="Panasonic Electronic Components"/>
@@ -7966,12 +7978,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYK226V/P22MGTR-ND/282153"/>
 </part>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="MOUSE-LEFT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="MOUSE-RIGHT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="MOUSE-RIGHT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="MOUSE-LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="MOUSE-DOWN" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
-<part name="MOUSE-UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value="MA01-1-ALLIGATOR-3.0MM"/>
+<part name="MOUSE-LEFT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="MOUSE-RIGHT-CLICK" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="MOUSE-RIGHT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="MOUSE-LEFT" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="MOUSE-DOWN" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
+<part name="MOUSE-UP" library="SixthLogic" deviceset="MA01-1-ALLIGATOR" device="-3.0MM" value=""/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="22M">
 <attribute name="DESCRIPTION" value="RES SMD 22M OHM 10% 1/10W 0603"/>
 <attribute name="MF" value="Panasonic Electronic Components"/>
@@ -9011,7 +9023,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="JP2" gate="G$1" x="379.73" y="11.43"/>
 <instance part="JP1" gate="G$1" x="374.396" y="11.43"/>
 <instance part="U$10" gate="G$1" x="0" y="0"/>
-<instance part="TP1" gate="G$1" x="68.58" y="231.14"/>
+<instance part="TP1" gate="G$1" x="68.58" y="231.14" smashed="yes">
+<attribute name="NAME" x="67.31" y="232.41" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
