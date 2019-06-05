@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -673,13 +673,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="D5" class="0">
 <segment>
 <pinref part="W" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D4" class="0">
-<segment>
+<wire x1="17.78" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="68.58" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="A" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A5" class="0">
